@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c712661-23c9-4b19-adba-827f2f753333" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    <list default="true" id="2c712661-23c9-4b19-adba-827f2f753333" name="Changes" comment="Do a lot of work :)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/InHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/InHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/InventoryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/InventoryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/Outsourced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/Outsourced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/Part.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/PartFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/PartFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/ProductFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clontz/inventorymanagementapplication/ProductFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/clontz/inventorymanagementapplication/main-form-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/clontz/inventorymanagementapplication/main-form-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/clontz/inventorymanagementapplication/part-form-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/clontz/inventorymanagementapplication/part-form-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/clontz/inventorymanagementapplication/product-form-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/clontz/inventorymanagementapplication/product-form-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,5 +69,9 @@
       <updated>1672425933851</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Do a lot of work :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Do a lot of work :)" />
   </component>
 </project>

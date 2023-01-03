@@ -1,14 +1,14 @@
 package clontz.inventorymanagementapplication;
 
 /**
-* Supplied class Part.java 
- */
-
-/**
+ * Part
  *
- * @author Place Your Name Here
+ * The abstract base class for different types of parts.
+ *
+ * @author Chris Clontz
  */
 public abstract class Part {
+    private static int nextId = 0;
     private int id;
     private String name;
     private double price;
@@ -22,6 +22,10 @@ public abstract class Part {
         this.stock = stock;
         this.min = min;
         this.max = max;
+    }
+
+    public static int getNextId() {
+        return ++nextId;
     }
 
     /**

@@ -7,6 +7,19 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * Inventory Application
+ *
+ * JavaFX app that tracks the input of inventory products and their associated parts.
+ *
+ * FUTURE ENHANCEMENT: I would refactor the product and part search methods to
+ * combine them into a single method that would check for both the name and the
+ * id in the same loop iteration. This would cut down on the number of methods
+ * in the respective classes and would reduce the number of iterations needed
+ * to complete each search.
+ *
+ * @author Chris Clontz
+ */
 public class InventoryApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {

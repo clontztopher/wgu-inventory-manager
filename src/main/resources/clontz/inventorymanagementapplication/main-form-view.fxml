@@ -14,12 +14,15 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="977.0" spacing="40.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clontz.inventorymanagementapplication.MainController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="977.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clontz.inventorymanagementapplication.MainController">
    <children>
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Inventory Management System">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
       </Text>
       <HBox spacing="20.0" VBox.vgrow="ALWAYS">
          <children>
@@ -50,12 +53,12 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Text>
-                  <TextField fx:id="mainFormPartSearch" onAction="#handlePartSearch" promptText="Search by Part ID or Name" GridPane.columnIndex="1" />
+                  <TextField fx:id="mainFormPartSearch" onKeyReleased="#handlePartSearch" promptText="Search by Part ID or Name" GridPane.columnIndex="1" />
                   <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="2">
                      <buttons>
-                        <Button fx:id="mainformAddPartBtn" mnemonicParsing="false" onAction="#onAddPart" text="Add" />
-                        <Button fx:id="mainformModPartBtn" mnemonicParsing="false" onAction="#onModifyPart" text="Modify" />
-                        <Button fx:id="mainformDelPartBtn" mnemonicParsing="false" onAction="#onDeletePart" text="Delete" />
+                        <Button fx:id="mainFormAddPartBtn" mnemonicParsing="false" onAction="#onAddPart" text="Add" />
+                        <Button fx:id="mainFormModPartBtn" mnemonicParsing="false" onAction="#onModifyPart" text="Modify" />
+                        <Button fx:id="mainFormDelPartBtn" mnemonicParsing="false" onAction="#onDeletePart" text="Delete" />
                      </buttons>
                   </ButtonBar>
                </children>
@@ -90,7 +93,7 @@
                         <Font size="14.0" />
                      </font>
                   </Text>
-                  <TextField fx:id="mainFormProductSearch" onAction="#handleProductSearch" promptText="Search by Product ID or Name" GridPane.columnIndex="1" />
+                  <TextField fx:id="mainFormProductSearch" onAction="#handleProductSearch" onKeyReleased="#handleProductSearch" promptText="Search by Product ID or Name" GridPane.columnIndex="1" />
                   <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="2">
                      <buttons>
                         <Button fx:id="mainFormAddProductBtn" mnemonicParsing="false" onAction="#onAddProduct" text="Add" />
@@ -102,6 +105,7 @@
             </GridPane>
          </children>
       </HBox>
+      <Button fx:id="exitBtn" mnemonicParsing="false" onAction="#exitApplication" text="Exit" />
    </children>
    <padding>
       <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
